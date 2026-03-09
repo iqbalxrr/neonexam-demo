@@ -1377,10 +1377,6 @@ textarea {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .feature-card {
-    grid-template-columns: 1fr;
-  }
-
   .faq-2col,
   .contact-split,
   .auth-page,
@@ -1446,8 +1442,24 @@ textarea {
   .contact-grid,
   .showcase-cards,
   .stats-strip,
-  .cta-band {
+  .cta-band,
+  .feature-card {
     grid-template-columns: 1fr;
+  }
+
+  .feature-card {
+    text-align: center;
+  }
+  
+  .feature-illustration {
+    width: 140px;
+    margin: 0 auto;
+  }
+  
+  .tick-list {
+    text-align: left;
+    display: inline-grid;
+    margin-inline: auto;
   }
 
   .cta-band {
